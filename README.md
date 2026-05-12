@@ -59,15 +59,57 @@ graph TD
 
 ---
 
-## 📂 Database Schema (5 Tables)
+## 📂 Database Architecture (ERD)
 
-The system utilizes a relational database with the following interconnected tables:
+The system utilizes a high-performance relational database with 5 interconnected tables. Below is the Entity Relationship Diagram:
 
-1. `users`: Stores user profiles and roles (admin, farmer, customer).
-2. `categories`: Organizes products into manageable groups.
-3. `products`: Contains product details, pricing, and stock (linked to Farmer and Category).
-4. `orders`: Tracks customer purchases and shipping info.
-5. `order_items`: A junction table for order details (Many-to-Many relationship between Orders and Products).
+```mermaid
+erDiagram
+    USERS ||--o{ PRODUCTS : "Farmer lists products"
+    USERS ||--o{ ORDERS : "Customer places orders"
+    CATEGORIES ||--o{ PRODUCTS : "Classifies products"
+    ORDERS ||--o{ ORDER_ITEMS : "Order contains items"
+    PRODUCTS ||--o{ ORDER_ITEMS : "Product is in order_items"
+
+    USERS {
+        int id PK
+        string username
+        string full_name
+        string email
+        enum role
+    }
+
+    CATEGORIES {
+        int id PK
+        string name
+    }
+
+    PRODUCTS {
+        int id PK
+        int farmer_id FK
+        int category_id FK
+        string name
+        decimal price
+    }
+
+    ORDERS {
+        int id PK
+        int customer_id FK
+        decimal total_amount
+        enum status
+    }
+
+    ORDER_ITEMS {
+        int id PK
+        int order_id FK
+        int product_id FK
+        int quantity
+    }
+```
+
+### Relationship Breakdown:
+*   **One-to-Many**: Users to Products, Users to Orders, Categories to Products.
+*   **Many-to-Many**: Orders to Products (linked via the `order_items` bridge table).
 
 ---
 
