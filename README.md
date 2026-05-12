@@ -6,6 +6,8 @@
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![UI/UX](https://img.shields.io/badge/UI/UX-Glassmorphism-2ECC71?style=for-the-badge&logo=figma&logoColor=white)](https://github.com/kidanenamhret/Ethio-Farmers_Market)
 
+🔗 **Official Repository:** [github.com/kidanenamhret/Ethio-Farmers_Market](https://github.com/kidanenamhret/Ethio-Farmers_Market)
+
 ---
 
 > [!IMPORTANT]
