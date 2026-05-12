@@ -100,6 +100,81 @@
 
 ---
 
-<p align="center">
-  Developed by the Ethio Farmers Market Team - 2026
-</p>
+## 📊 Database Schema (ERD)
+
+The following diagram illustrates the relational structure of the **Ethio Farmers Market** database:
+
+```mermaid
+erDiagram
+    USERS ||--o{ PRODUCTS : lists
+    USERS ||--o{ ORDERS : places
+    CATEGORIES ||--o{ PRODUCTS : classifies
+    ORDERS ||--o{ ORDER_ITEMS : contains
+    PRODUCTS ||--o{ ORDER_ITEMS : included_in
+
+    USERS {
+        int id PK
+        string username
+        string email
+        string password_hash
+        enum role "customer, farmer, admin"
+    }
+
+    CATEGORIES {
+        int id PK
+        string name
+    }
+
+    PRODUCTS {
+        int id PK
+        int farmer_id FK
+        int category_id FK
+        string name
+        decimal price
+        int stock_quantity
+        string unit
+        string image_url
+    }
+
+    ORDERS {
+        int id PK
+        int customer_id FK
+        decimal total_amount
+        enum status
+        string shipping_address
+    }
+
+    ORDER_ITEMS {
+        int id PK
+        int order_id FK
+        int product_id FK
+        int quantity
+        decimal price_at_purchase
+    }
+```
+
+---
+
+## 📸 Application Screenshots (UI)
+
+### 🏠 1. Landing Page (Home)
+The entrance to the marketplace, featuring a premium glassmorphism search bar and featured categories.
+![Home Page](file:///C:/Users/tadwo/.gemini/antigravity/brain/c4646621-b8e3-450a-a9f9-7501c7515e17/media__1778605419219.png)
+
+### 🛒 2. Marketplace & Search
+Real-time filtering by category and AJAX-powered live search.
+![Marketplace](file:///C:/Users/tadwo/.gemini/antigravity/brain/c4646621-b8e3-450a-a9f9-7501c7515e17/media__1778609396663.png)
+
+### 🚜 3. Farmer Dashboard
+Comprehensive analytics and inventory management for agricultural sellers.
+![Farmer Dashboard](file:///C:/Users/tadwo/.gemini/antigravity/brain/c4646621-b8e3-450a-a9f9-7501c7515e17/media__1778615734556.png)
+
+### 📦 4. Order Management
+Farmers can track incoming orders and update delivery statuses in real-time.
+![Order Management](file:///C:/Users/tadwo/.gemini/antigravity/brain/c4646621-b8e3-450a-a9f9-7501c7515e17/media__1778617528816.png)
+
+### ℹ️ 5. About Us Page
+Sharing the platform's mission and impact through data visualization and storytelling.
+![About Us](file:///C:/Users/tadwo/.gemini/antigravity/brain/c4646621-b8e3-450a-a9f9-7501c7515e17/media__1778608285917.png)
+
+---
