@@ -98,11 +98,11 @@
             <div style="display: grid; grid-template-columns: repeat(5, 1fr); gap: 2rem;">
                 <?php 
                 $team = [
-                    ['name' => 'Mesfin', 'role' => 'Frontend Developer', 'color' => '#1b5e20'],
-                    ['name' => 'Edget', 'role' => 'Arch & Backend', 'color' => '#3b82f6'],
-                    ['name' => 'Yonas', 'role' => 'DB & Security', 'color' => '#8b5cf6'],
-                    ['name' => 'Ebsitu', 'role' => 'UI/UX Design', 'color' => '#f59e0b'],
-                    ['name' => 'Biruktawit', 'role' => 'DevOps & QA', 'color' => '#ef4444']
+                    ['name' => 'Mesfin Alemayehu', 'role' => 'Frontend Developer', 'color' => '#1b5e20'],
+                    ['name' => 'Edget Adissu', 'role' => 'Arch & Backend', 'color' => '#3b82f6'],
+                    ['name' => 'Yonas Tadese', 'role' => 'DB & Security', 'color' => '#8b5cf6'],
+                    ['name' => 'Ebsitu Birhanu', 'role' => 'UI/UX Design', 'color' => '#f59e0b'],
+                    ['name' => 'Biruktawit Geresu', 'role' => 'DevOps & QA', 'color' => '#ef4444']
                 ];
                 foreach ($team as $member):
                 ?>

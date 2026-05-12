@@ -65,7 +65,7 @@ The system utilizes a relational database with the following interconnected tabl
 - **Biruktawit Geresu**
 - **Yonas Tadese**
 - **Edget Adissu**
-- **Ebsitu**
+- **Ebsitu Birhanu**
 
 ---
 

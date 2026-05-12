@@ -57,11 +57,11 @@
 
 ### 💻 Development Team Roles (Project Execution)
 
-- **Mesfin**: **Frontend Developer** - Lead implementation of core PHP logic and database integration.
-- **Edget**: **System Architect** - Designed the application structure and backend routing.
-- **Yonas**: **Database & Security Specialist** - Responsible for PDO security and SQL schema integrity.
-- **Ebsitu**: **UI/UX Designer** - Crafted the Premium Glassmorphism design and custom CSS system.
-- **Biruktawit**: **DevOps & QA** - Managed project deployment, file naming standards, and final testing.
+- **Mesfin Alemayehu**: **Frontend Developer** - Lead implementation of core PHP logic and database integration.
+- **Edget Adissu**: **System Architect** - Designed the application structure and backend routing.
+- **Yonas Tadese**: **Database & Security Specialist** - Responsible for PDO security and SQL schema integrity.
+- **Ebsitu Birhanu**: **UI/UX Designer** - Crafted the Premium Glassmorphism design and custom CSS system.
+- **Biruktawit Geresu**: **DevOps & QA** - Managed project deployment, file naming standards, and final testing.
 
 ---
 
@@ -158,22 +158,27 @@ erDiagram
 ## 📸 Application Screenshots (UI)
 
 ### 🏠 1. Landing Page (Home)
+
 The entrance to the marketplace, featuring a premium glassmorphism search bar and featured categories.
 ![Home Page](screenshots/home.png)
 
 ### 🛒 2. Marketplace & Search
+
 Real-time filtering by category and AJAX-powered live search.
 ![Marketplace](screenshots/marketplace.png)
 
 ### 🚜 3. Farmer Dashboard
+
 Comprehensive analytics and inventory management for agricultural sellers.
 ![Farmer Dashboard](screenshots/dashboard.png)
 
 ### 📦 4. Order Management
+
 Farmers can track incoming orders and update delivery statuses in real-time.
 ![Order Management](screenshots/orders.png)
 
 ### ℹ️ 5. About Us Page
+
 Sharing the platform's mission and impact through data visualization and storytelling.
 ![About Us](screenshots/about.png)
 
