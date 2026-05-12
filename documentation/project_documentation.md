@@ -159,22 +159,22 @@ erDiagram
 
 ### 🏠 1. Landing Page (Home)
 The entrance to the marketplace, featuring a premium glassmorphism search bar and featured categories.
-![Home Page](file:///C:/Users/tadwo/.gemini/antigravity/brain/c4646621-b8e3-450a-a9f9-7501c7515e17/home_page_search_teff_1778619567178.png)
+![Home Page](screenshots/home.png)
 
 ### 🛒 2. Marketplace & Search
 Real-time filtering by category and AJAX-powered live search.
-![Marketplace](file:///C:/Users/tadwo/.gemini/antigravity/brain/c4646621-b8e3-450a-a9f9-7501c7515e17/marketplace_page_1778619580812.png)
+![Marketplace](screenshots/marketplace.png)
 
 ### 🚜 3. Farmer Dashboard
 Comprehensive analytics and inventory management for agricultural sellers.
-![Farmer Dashboard](file:///C:/Users/tadwo/.gemini/antigravity/brain/c4646621-b8e3-450a-a9f9-7501c7515e17/media__1778615734556.png)
+![Farmer Dashboard](screenshots/dashboard.png)
 
 ### 📦 4. Order Management
 Farmers can track incoming orders and update delivery statuses in real-time.
-![Order Management](file:///C:/Users/tadwo/.gemini/antigravity/brain/c4646621-b8e3-450a-a9f9-7501c7515e17/media__1778617528816.png)
+![Order Management](screenshots/orders.png)
 
 ### ℹ️ 5. About Us Page
 Sharing the platform's mission and impact through data visualization and storytelling.
-![About Us](file:///C:/Users/tadwo/.gemini/antigravity/brain/c4646621-b8e3-450a-a9f9-7501c7515e17/about_us_page_1778619606535.png)
+![About Us](screenshots/about.png)
 
 ---
