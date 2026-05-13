@@ -42,17 +42,24 @@ This project was developed as a flagship submission for the **Web Programming** 
 
 ---
 
-## 📈 Project Metrics & Vitality
+## 📈 Project Metrics & Team Vitality
 
 > [!NOTE]
-> The following metrics provide real-time proof of active development and project vitality, ensuring full compliance with **Academic Integrity** standards by demonstrating the iterative progress of the codebase.
+> The following metrics provide real-time proof of active development and project vitality, showing the collective effort of the entire development team.
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=kidanenamhret&repo=Ethio-Farmers_Market&theme=dracula&hide_border=true&bg_color=0D1117" alt="Repo Stats" />
 </p>
 
+### 👥 Project Contributors
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kidanenamhret&theme=dracula&bg_color=0D1117&hide_border=true&color=2ECC71&line=2ECC71&point=F1C40F&area=true&hide_grid=true" width="100%" />
+  <a href="https://github.com/kidanenamhret/Ethio-Farmers_Market/graphs/contributors">
+    <img src="https://contrib.rocks/image?repo=kidanenamhret/Ethio-Farmers_Market" />
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kidanenamhret&repo=Ethio-Farmers_Market&theme=dracula&bg_color=0D1117&hide_border=true&color=2ECC71&line=2ECC71&point=F1C40F&area=true&hide_grid=true" width="100%" />
 </p>
 
 ---
