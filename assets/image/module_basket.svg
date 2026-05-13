@@ -1,0 +1,6 @@
+<svg fill="none" viewBox="0 0 100 100" width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+  <rect x="20" y="30" width="60" height="50" rx="5" stroke="#2ECC71" stroke-width="4">
+    <animate attributeName="stroke-dasharray" from="0,220" to="220,0" dur="3s" repeatCount="indefinite" />
+  </rect>
+  <path d="M30 30 V20 Q 50 10, 70 20 V30" stroke="#2ECC71" stroke-width="4" />
+</svg>

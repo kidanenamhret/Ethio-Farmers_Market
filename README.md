@@ -1,5 +1,10 @@
-# 🌾 Ethio Farmers Market
-### *Harvesting Excellence. Empowering Communities.*
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Outfit&weight=600&size=24&pause=1000&color=2ECC71&center=true&vCenter=true&width=600&lines=Harvesting+Excellence.+Empowering+Communities.;Connecting+Local+Farmers+to+Urban+Tables.;Freshness+Delivered.+Directly+from+Ethiopia.;Built+with+Passion.+Designed+for+Impact." alt="Typing SVG" />
+</p>
+
+<p align="center">
+  <img src="assets/image/animated_divider.svg" width="100%" />
+</p>
 
 [![PHP Version](https://img.shields.io/badge/PHP-8.2-777BB4?style=for-the-badge&logo=php&logoColor=white)](https://www.php.net/)
 [![MySQL](https://img.shields.io/badge/MySQL-Database-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/)
@@ -7,6 +12,10 @@
 [![UI/UX](https://img.shields.io/badge/UI/UX-Glassmorphism-2ECC71?style=for-the-badge&logo=figma&logoColor=white)](https://github.com/kidanenamhret/Ethio-Farmers_Market)
 
 🔗 **Official Repository:** [github.com/kidanenamhret/Ethio-Farmers_Market](https://github.com/kidanenamhret/Ethio-Farmers_Market)
+
+<p align="center">
+  <img src="assets/image/animated_divider.svg" width="100%" />
+</p>
 
 ---
 
@@ -25,10 +34,24 @@ This project was developed as a flagship submission for the **Web Programming** 
 
 ## 🛠️ Technologies Used
 
-- **Frontend**: HTML5, Vanilla CSS3 (Custom Glassmorphism Design), JavaScript (ES6+).
-- **Backend**: PHP 8.x (using PDO for secure database interactions).
-- **Database**: MySQL (5 interconnected tables).
-- **Icons & Fonts**: Font Awesome, Google Fonts (Outfit).
+<p align="left">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=php,mysql,js,html,css,git,vscode,figma&theme=dark" />
+  </a>
+</p>
+
+---
+
+## 📈 Project Vitality
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=kidanenamhret&show_icons=true&theme=dracula&hide_border=true&bg_color=0D1117&count_private=true" alt="GitHub Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=kidanenamhret&theme=dracula&hide_border=true&background=0D1117" alt="GitHub Streak" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kidanenamhret&theme=dracula&bg_color=0D1117&hide_border=true&color=2ECC71&line=2ECC71&point=F1C40F&area=true&hide_grid=true" width="100%" />
+</p>
 
 ---
 
@@ -49,15 +72,31 @@ graph TD
 
 ## 🌟 Key Features
 
-### 💎 Premium User Experience
-- **Responsive "Ethio-Green" UI**: Optimized for all devices using a custom Glassmorphism design system.
-*   **Asynchronous Live Search**: Instant product discovery powered by AJAX and PHP backend.
-- **Dynamic Previews**: Real-time image and content previews for farmer harvest management.
-
-### 🔐 Advanced Security & Logic
-- **Role-Based Access Control (RBAC)**: Secure, distinct portals for Customers, Farmers, and Administrators.
-- **Data Integrity**: Full PDO prepared statements to prevent SQL injection.
-- **Transaction Safety**: Secure session-based cart management with real-time stock quantity validation.
+<table>
+  <tr>
+    <td width="33%" align="center">
+      <img src="assets/image/feature_search.svg" width="80" />
+      <br />
+      <b>Live AJAX Search</b>
+      <br />
+      Instant product discovery powered by asynchronous API requests, eliminating page reloads.
+    </td>
+    <td width="33%" align="center">
+      <img src="assets/image/feature_farmer.svg" width="80" />
+      <br />
+      <b>Farmer Dashboard</b>
+      <br />
+      Dynamic previews and real-time inventory management with custom Glassmorphism UI.
+    </td>
+    <td width="33%" align="center">
+      <img src="assets/image/feature_security.svg" width="80" />
+      <br />
+      <b>Enterprise Security</b>
+      <br />
+      Full PDO prepared statements, RBAC (Role-Based Access Control), and session safety.
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -115,6 +154,22 @@ erDiagram
 
 ---
 
+## 🏗️ Core System Modules
+
+<p align="center">
+  <img src="assets/image/module_basket.svg" width="60" /> <b>Marketplace Engine</b> &nbsp;&nbsp;&nbsp;
+  <img src="assets/image/module_profile.svg" width="60" /> <b>RBAC User Portal</b> &nbsp;&nbsp;&nbsp;
+  <img src="assets/image/feature_security.svg" width="60" /> <b>Secure Transaction Gateway</b>
+</p>
+
+---
+
+<p align="center">
+  <img src="assets/image/animated_divider.svg" width="100%" />
+</p>
+
+---
+
 ## 🚀 Setup & Installation Instructions
 
 1. **Environment**: Ensure you have **XAMPP** or **WAMP** installed on your system.
@@ -140,6 +195,10 @@ erDiagram
 - **Yonas Tadese**
 - **Edget Adissu**
 - **Ebsitu Birhanu**
+
+<p align="center">
+  <img src="assets/image/animated_divider.svg" width="100%" />
+</p>
 
 ---
 
@@ -179,12 +238,16 @@ To test the full functionality of the marketplace, you can use the following pre
 - **AJAX Requirement**: Asynchronous live search implemented in `assets/js/live-search.js` and `ajax/live-search.php`.
 
 ---
-👥 Role Overview:
-Administrator: Manages users, global product health, and platform statistics.
-Farmer: Manages their specific produce, tracks stock levels, and fulfills customer orders.
-Customer: Browses the marketplace, manages their personal cart, and tracks order history.
-Guest: Can search and view products, but is redirected to a secure login/register flow when trying to checkout.
 
-*While Farmers manage their harvests and Customers manage their baskets, the Admin manages the entire ecosystem.*
+<p align="center">
+  <img src="assets/image/animated_divider.svg" width="100%" />
+</p>
 
-© 2026 Ethio Farmers Market. Supporting local agriculture through technology.
+<p align="center">
+  <a href="#-ethio-farmers-market"><b>Back to Top ⬆️</b></a>
+</p>
+
+<p align="center">
+  <strong>Web Programming Course - Group Project</strong><br>
+  © 2026 Ethio Farmers Market. Supporting local agriculture through technology.
+</p>
