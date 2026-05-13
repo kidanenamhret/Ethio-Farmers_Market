@@ -44,14 +44,14 @@ This project was developed as a flagship submission for the **Web Programming** 
 
 ## 📈 Project Metrics & Team Vitality
 
-> [!NOTE]
-> The following metrics provide real-time proof of active development and project vitality, showing the collective effort of the entire development team.
+> [!TIP]
+> The metrics below are **dynamic** and will automatically update to reflect the real-time contributions of all group members as they push code to the repository. This ensures full credit is given to everyone as the project evolves.
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=kidanenamhret&repo=Ethio-Farmers_Market&theme=dracula&hide_border=true&bg_color=0D1117" alt="Repo Stats" />
 </p>
 
-### 👥 Project Contributors
+### 👥 Real-Time Contributors
 <p align="center">
   <a href="https://github.com/kidanenamhret/Ethio-Farmers_Market/graphs/contributors">
     <img src="https://contrib.rocks/image?repo=kidanenamhret/Ethio-Farmers_Market" />
