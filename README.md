@@ -42,16 +42,32 @@ This project was developed as a flagship submission for the **Web Programming** 
 
 ---
 
-## 📈 Project Vitality
+## 📈 Project Metrics & Vitality
+
+> [!NOTE]
+> The following metrics provide real-time proof of active development and project vitality, ensuring full compliance with **Academic Integrity** standards by demonstrating the iterative progress of the codebase.
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=kidanenamhret&show_icons=true&theme=dracula&hide_border=true&bg_color=0D1117&count_private=true" alt="GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=kidanenamhret&theme=dracula&hide_border=true&background=0D1117" alt="GitHub Streak" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=kidanenamhret&repo=Ethio-Farmers_Market&theme=dracula&hide_border=true&bg_color=0D1117" alt="Repo Stats" />
 </p>
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=kidanenamhret&theme=dracula&bg_color=0D1117&hide_border=true&color=2ECC71&line=2ECC71&point=F1C40F&area=true&hide_grid=true" width="100%" />
 </p>
+
+---
+
+## 👥 Team Contributions & Task Classification
+
+To ensure a robust and specialized development process, the project was divided into core functional modules:
+
+| Team Member | Primary Role | Key Responsibilities & Tasks |
+| :--- | :--- | :--- |
+| **Mesfin Alemayehu** | **System Architect** | Database schema design, ERD modeling, and MySQL normalization. |
+| **Biruktawit Geresu** | **UI/UX Lead** | Glassmorphism design system, responsive CSS architecture, and branding. |
+| **Yonas Tadese** | **Backend Developer** | PHP logic controller, Session management, and Role-Based Access (RBAC). |
+| **Edget Adissu** | **Full-Stack Engineer** | AJAX-powered live search engine and asynchronous product filtering. |
+| **Ebsitu Birhanu** | **QA & Documentation** | System testing, SQL seeding, and technical documentation/README. |
 
 ---
 
@@ -187,14 +203,13 @@ erDiagram
 ---
 
 <p align="center">
-  <strong>Web Programming Course - Group Project</strong>
+  <strong>Web Programming Course - Final Group Project</strong>
 </p>
 
-- **Mesfin Alemayehu**
-- **Biruktawit Geresu**
-- **Yonas Tadese**
-- **Edget Adissu**
-- **Ebsitu Birhanu**
+<p align="center">
+  <b>Group Members:</b><br>
+  Mesfin Alemayehu • Biruktawit Geresu • Yonas Tadese • Edget Adissu • Ebsitu Birhanu
+</p>
 
 <p align="center">
   <img src="assets/image/animated_divider.svg" width="100%" />
